@@ -1,14 +1,13 @@
 #include<iostream>
-using namespace std;
 #include<ctime>
 #include<cstdlib>
+using namespace std;
 int main(){
     int maxRange,randNum,guess;
     srand(time(0));
     cout<<"Enter your Max Range: ";
     cin>>maxRange;
     randNum= (rand()%maxRange)+1;
-    cout<<randNum;
     do
     {
         cout<<endl<<endl<<"Guess the Number: ";
